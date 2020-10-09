@@ -1,0 +1,190 @@
+/* Styling the entrance to this world*/
+body
+{  
+  background-color:white;
+  margin:0;
+  font-family: cursive; 
+}
+/*headers*/
+.header
+{
+padding:60px;
+text-align:center;
+background:black;
+font-synthesis:weight;
+}
+
+/*login button */
+.button 
+{
+background-color:black;
+border:none;
+color: greenyellow;
+padding:15px 32px;
+text-align:right;
+text-decoration: none;
+display:block;
+font-size:16px;
+margin: 4px 2px;
+cursor:pointer;
+font-style:italic;
+}
+/*other buttons*/
+.flex-container{
+display: flex;
+background-color:white;
+}
+.flex-container >div {   
+background-color:azure;
+margin: 10px;
+padding: 20px;
+font-size:15px;
+}
+.button-area-line{
+margin:10px auto;
+display:-webkit;
+display:-moz-box;
+display:-ms-box;
+display:-ms-flexbox;
+display: flex;
+-webkit-flex-direction:row;
+-moz-flex-direction:row;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: nowrap;
+max-width:96%;
+    a{
+      background:#000000;
+    padding:lem;
+    font-size:1em;
+    margin:.3em;
+    color:white;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+        
+    }
+}
+/*search button*/
+.button_search
+{
+background-color:black;
+border:none;
+color:yellow;
+padding:10px 8px;
+text-align:center;
+text-decoration:overline;
+display: block;
+font-size:16px;
+margin:4px 2px;
+cursor: pointer;
+font-style:italic;        
+}
+/*Top menu*/
+.navbar {
+overflow:hidden
+background-color:#333
+font-family:Castellar;
+}
+/*links inside the navbar*/
+.navbar a
+{
+float:left;
+font-size:16px;
+color:white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;   
+}
+/*dropdown container*/
+.dropdown
+{
+float:left;
+overflow:hidden;    
+}
+
+/*The dropdown button*/
+.dropdown .dropbtn {
+  font-size:16px;
+    border:none;
+    outline: none;
+    color:white;
+    padding:14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin:0;
+}
+/*Blue color to navbar links on hover*/
+.navbar a:hover, .dropdown:hover .dropbtn
+{
+background-color: skyblue;
+}
+/*dropdown content*/
+.dropdown-content 
+{
+display: none;
+position: absolute;
+background-color:lightgray;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1; 
+}
+/*Links inside dropdown*/
+.dropdown-content a 
+{
+float:none;
+color:white;
+padding:12px 16px;
+text-decoration:inherit;
+display:block;
+text-align:left;
+justify-content: space-between;
+    }
+/*Grey background to links on hover */
+.dropdown-content a:hover {
+background-color:palegreen;
+    }
+/*Show the dropdown menu on hover*/
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+/*Search bar*/
+.topnav {
+overflow:hidden;
+background-color:black;
+padding-top:13px; 
+}
+/*Change the color of links on hover*/
+.topnav a:hover {
+background-color: #000000;
+color:white;
+}
+/*Style the active element*/
+.topnav a.active{
+background-color: #000000;
+color:white;
+}
+/*Search box inside the navigation bar*/
+.topnav input[type=text]
+{
+float:center;
+border:none;
+font-size:20px;
+}
+/*Media tag */
+@media screen and (max-width:600px)
+{
+    .topnav a, .topnav input[type=text]
+    {
+      float :none;
+    display:block; 
+    text-align :left;
+    width:100%;
+    margin:0;
+    padding: 14 px;
+             
+    }
+    .topnav[type=text]
+    border:1px solid #cc
+}
